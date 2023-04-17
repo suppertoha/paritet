@@ -2098,6 +2098,7 @@ iframe.wait-autoplay {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  visibility: visible;
 }
 .burger__btn {
   position: relative;
@@ -2921,6 +2922,13 @@ body {
   -webkit-transition: left 0.4s;
   -o-transition: left 0.4s;
   transition: left 0.4s;
+
+}
+@media screen and (max-width: 1200px) {
+  .nav.open {
+    visibility: visible;
+  
+  }
 }
 .nav.open .btn-cross {
   opacity: 1;
